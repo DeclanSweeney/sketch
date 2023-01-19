@@ -1,0 +1,38 @@
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+.titleDiv {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.cell {
+    border: thin black dotted;
+    display: flex;
+    min-width: 5px;
+    min-height: 5px;
+    flex-grow: 1;
+}
+
+#sketchContainer {
+    display: flex;
+    flex-direction: column;
+    height: 960px;
+    width: 960px;
+    align-content: center;
+    justify-content: center;
+}
+
+#containerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnDiv {
+    margin: 40px;
+}
